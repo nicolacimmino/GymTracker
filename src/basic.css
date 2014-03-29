@@ -1,0 +1,228 @@
+
+/* 
+ * The all page body
+ */
+html, body 
+ {
+        margin: 0;
+        padding: 0;
+        height: 90%;
+		background-color: #CCCCCC;
+}
+	 
+/* This is the canvas that fills the all screen
+ *	and iside which the all content is.
+ */
+#canvas
+{
+	width: 100%;
+	height: 100%;
+	background-color: #CCCCCC;
+	margin: -10px;
+	padding: 10px;
+	border: 0px;
+	z-index: -200;
+}
+
+#topbar
+{
+	background-color: #000000;
+	width:100%;
+	height: 32px;
+	color: #FFFFFF;
+}
+
+div.main_screen_area
+{
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+#start_button
+{
+	display:block;
+	background:url('images/start.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 128px;
+	height: 128px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stop_button
+{
+	display: none;
+	background:url('images/stop.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 64px;
+	height: 64px;
+	margin-left: 32px;
+	float:left;
+}
+
+#session_timer
+{
+	float:left;
+	margin-left: 64px;
+	font-size: 400%;
+	display: none;
+}
+
+div.body_part_selector_button
+{
+	width: 60%;
+	height: 25%;
+	margin-left: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #7DAD64;
+}
+
+#home
+{
+	background:url('images/home.png');
+	background-repeat: no-repeat;
+	width: 38px;
+	height: 32px;
+	background-color: #000000;
+	float: left;
+}
+
+#arms_workout_selector
+{
+	display: none;
+	background-color: transparent; 
+}
+
+#body_part_selector_button_arms
+{
+	background:url('images/arms.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFFFFF;
+	display: none;
+}
+
+#torso_workout_selector
+{
+	display: none;
+}
+
+#body_part_selector_button_torso
+{
+	background:url('images/torso.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFFFFF;
+	display: none;
+}
+
+#legs_workout_selector
+{
+	display: none;
+}
+
+#body_part_selector_button_legs
+{
+	background:url('images/legs.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFFFFF;
+	display: none;
+}
+
+div.action_menu_button
+{
+	width: 28%;
+	border: solid 1px black;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	font-size: 200%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+div.workout_selection_button
+{
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px black;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+div.workout_button
+{
+	width: 28%;
+	border: solid 1px black;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	font-size: 200%;
+	float:left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+div.button_ok
+{
+	width: 29%;
+	height: 64px;
+	background-color: #FFFFFF;
+	font-size: 200%;
+	margin-left: 15%;
+	margin-right: 5%;
+	display: none;
+	float: left;
+	background:url('images/ok.png');
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+div.button_cancel
+{
+	width: 29%;
+	height: 64px;
+	background-color: #FFFFFF;
+	font-size: 200%;
+	margin-left: 5%;
+	margin-right: 15%;
+	display: none;
+	float: left;
+	background:url('images/cancel.png');
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+
+div.workout_data_area
+{
+	display: block;
+	margin-left: auto;
+	width: 100%;
+}
+
+div.workout_weight
+{
+	font-size: 200%;
+	float:left;
+}
+
+div.workout_data
+{
+	display: none;
+/*	position: fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 100%;*/
+	text-align: center;
+}
