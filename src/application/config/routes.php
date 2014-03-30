@@ -38,6 +38,7 @@
 |
 */
 
+$route['transactions'] = "gym_tracker/transactions";
 $route['default_controller'] = "gym_tracker/index";
 $route['404_override'] = '';
 

@@ -167,7 +167,7 @@
 		{
 			if(syncWorker == null)
 			{
-				syncWorker = new Worker("workoutdata_sync_worker.js");
+				syncWorker = new Worker("/GymTracker/js/workoutdata_sync_worker.js");
 				/*
 				 * Process messages from background worker
 				 */

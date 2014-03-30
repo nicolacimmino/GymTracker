@@ -5,7 +5,7 @@
 self.onmessage = function(e) 
 {
 	xmlhttp=new XMLHttpRequest();
-	xmlhttp.open("GET","sync.php?transactions=" + e.data, /*async=*/false);
+	xmlhttp.open("GET","/GymTracker/transactions?transactions=" + e.data, /*async=*/false);
 	xmlhttp.send();
 	if(xmlhttp.status == 200)
 	{

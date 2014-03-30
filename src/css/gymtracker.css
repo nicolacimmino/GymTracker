@@ -43,7 +43,7 @@ div.main_screen_area
 #start_button
 {
 	display:block;
-	background:url('images/start.png');
+	background:url('/GymTracker/images/start.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 128px;
@@ -55,7 +55,7 @@ div.main_screen_area
 #stop_button
 {
 	display: none;
-	background:url('images/stop.png');
+	background:url('/GymTracker/images/stop.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 64px;
@@ -86,7 +86,7 @@ div.body_part_selector_button
 
 #home
 {
-	background:url('images/home.png');
+	background:url('/GymTracker/images/home.png');
 	background-repeat: no-repeat;
 	width: 38px;
 	height: 32px;
@@ -102,7 +102,7 @@ div.body_part_selector_button
 
 #body_part_selector_button_arms
 {
-	background:url('images/arms.png');
+	background:url('/GymTracker/images/arms.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #FFFFFF;
@@ -116,7 +116,7 @@ div.body_part_selector_button
 
 #body_part_selector_button_torso
 {
-	background:url('images/torso.png');
+	background:url('/GymTracker/images/torso.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #FFFFFF;
@@ -130,7 +130,7 @@ div.body_part_selector_button
 
 #body_part_selector_button_legs
 {
-	background:url('images/legs.png');
+	background:url('/GymTracker/images/legs.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #FFFFFF;
@@ -182,7 +182,7 @@ div.button_ok
 	margin-right: 5%;
 	display: none;
 	float: left;
-	background:url('images/ok.png');
+	background:url('/GymTracker/images/ok.png');
 	background-repeat: no-repeat;
 	background-position:center;
 }
@@ -197,7 +197,7 @@ div.button_cancel
 	margin-right: 15%;
 	display: none;
 	float: left;
-	background:url('images/cancel.png');
+	background:url('/GymTracker/images/cancel.png');
 	background-repeat: no-repeat;
 	background-position:center;
 }
